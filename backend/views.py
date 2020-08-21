@@ -162,8 +162,8 @@ def generate_verification_code_v2():
 REGION = "cn-hangzhou"
 PRODUCT_NAME = "SMSapi"
 DOMAIN = "dysmsapi.aliyuncs.com"
-ACCESS_KEY_ID = 'LTAI4GA4VdzVGA6SZhNRqKeo'  # 必填
-ACCESS_KEY_SECRET = 'SXBiYpYMksCdCIl6VZs19GYh2gsbDK'  # 必填
+ACCESS_KEY_ID = ''  # 必填
+ACCESS_KEY_SECRET = ''  # 必填
 
 # 初始化
 acs_client = AcsClient(ACCESS_KEY_ID, ACCESS_KEY_SECRET, REGION)
