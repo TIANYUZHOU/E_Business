@@ -171,7 +171,7 @@ class OrderInfo(models.Model):
 #
 #
 #
-# #当前下订单的用户信息表.晕,不知什么用
+# #当前下订单的用户信息表.
 # class UserProfile(models.Model):
 #     belong_to=models.OneToOneField(to=User,related_name="profile",on_delete=models.CASCADE)
 #     phone=models.CharField(max_length=11,default="12345678910")
